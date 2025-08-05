@@ -1,0 +1,5 @@
+{
+  "symbols": ["BTCUSDT", "ETHUSDT"],
+  "interval": "3m",
+  "min_score_to_trade": 3
+}
