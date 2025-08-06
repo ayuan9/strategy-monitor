@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>策略监控系统 v1.3</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h2>策略监控系统 v1.3</h2>
+  <div id="status-box">Loading...</div>
+  <h3>交易记录</h3>
+  <table border="1">
+    <thead>
+      <tr><th>时间</th><th>方向</th><th>打分</th><th>命中</th><th>盈亏</th></tr>
+    </thead>
+    <tbody id="trades-body"></tbody>
+  </table>
+  <h3>胜率曲线</h3>
+  <canvas id="winrate-chart" width="600" height="300"></canvas>
+  <script src="app.js"></script>
+</body>
+</html>
